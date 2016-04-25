@@ -1,7 +1,8 @@
 body {
+		color: white;
 		font-family: sans-serif;
-		margin: 0;
-		padding: 0;
+		margin: 0px;
+		padding: 0px;
 	}
 
 /*p, h1 {
@@ -15,39 +16,48 @@ p:hover {
 	color: red;
 }*/
 
-#main {
-	width: 100%;
-	float: left;
-	background-size: 100%;
-	background-color: #f2e2ad;
 
+html{
+	background: url(img/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-#head {
-	position: absolute;
-	float: left;
+
+#header{
+
+	text-align: right;
+	float: right;
+	width: 100vh;
 }
+
 
 #menu { /* # calls an id */
 	color: white;
-	position: absolute;
 	float: left;
 	width: 220px;
-	height: 100%;
+	height: 100vh;
 	background-color: #000000;
 }
 
 #worldmap {
+	float: left;
 	background-color: #1168f2;
 }
 
 #footer {
+	float: left;
 	color: white;
 	background-color: #000000;
 }
 
+p{
+	text-align: center;
+	margin-top: 40%;
+}
 
+h1{
+	font-size: 80%;
 
-img {
-	width: 100%;
-	height: auto;
 }
