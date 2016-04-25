@@ -1,0 +1,14 @@
+body {
+		font-family: sans-serif;
+	}
+	
+p, h1 {
+	text-align: justify;
+	padding: 0px 30%;
+}
+h1 {
+	margin: 50px 0px;
+}
+p:hover {
+	color: red;
+}
