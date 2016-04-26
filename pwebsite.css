@@ -50,7 +50,11 @@ html{
 	position: fixed;
 	clear: both;
 	padding-top: 70px;
-	text-align: center;
+	opacity: 0.6;
+}
+
+#menulist {
+    list-style-type: none;
 }
 
 #worldmap {
@@ -64,6 +68,13 @@ html{
 
 #footer {
 	padding-right: 3%;
+	position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#menuHead{
+	text-align: center;
 }
 
 .heading {
@@ -81,3 +92,11 @@ html{
 .dun {
 	font-weight: 300;
 }
+
+/*@media screen and (max-width: 500px) {
+	body {
+		display: none;  
+		display: block;
+	}
+}*/
+
