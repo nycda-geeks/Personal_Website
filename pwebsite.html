@@ -10,13 +10,13 @@
 <body>
 
 	<div id="menu" class="">
-			
+
 		<p class="menu">
 			<h2>
-			MENU
+				MENU
 			</h2>
 			<ul>
-				<li></li>
+				<li>Asia</li>
 				<li></li>
 				<li></li>
 				<li></li>
@@ -26,27 +26,52 @@
 		</p>
 	</div>
 
-<div id="header">
-<h1 class="heading">The World Through My Eyes</h1>
-<h4 class="heading dun">TRAVEL AND UNDERWATER PHOTOGRAPHY BY ELEONORA ZITO</h4>
-</div>
+	<div id="header">
+		<h1 class="heading">The World Through My Eyes</h1>
+		<h4 class="heading dun">TRAVEL AND UNDERWATER PHOTOGRAPHY BY ELEONORA ZITO</h4>
+	</div>
 
 
-<div id="worldmap">
-	<div>
-		<p class="worldmap">
-		Worldmap
-		</p>
+	<div id="worldmap">
+		<div>
+			<p class="worldmap">
+				Worldmap
+			</p>
+		</div>
+		<div id="footer">
+			<p class="copy">
+				&copy; 2016 Eleonora Zito
+			</p>
+		</div>
 	</div>
-	<div id="footer">
-	<p class="copy">
-		&copy; 2016 Eleonora Zito
-	</p>
-	</div>
-</div>
 
 	<script type="text/javascript" src="pwebsite.js"> </script>
+	<script type="text/javascript" src="jquery-2.2.3.min.js"></script>
+
+	<script>
+		$ ( document ) .ready ( function () {
+			$ ("#header") .animate({
+				'right': "10px"
+			}, 1500)
+			// $ ("#menu") .fadeOut (1000)
+			// $ ("#menu") .fadeIn (1000)
+			// $ ("#header").animate( {
+			// 	'margin-left':'940px'
+			// },2000 )
+
+/*
+		$ ("#worldmap") .click(     // give a command when you click somewhere
+			function(){
+			})
+			*/
+		} )
+
+	</script>
 
 </body>
+
+
+
+
 
 </html>
