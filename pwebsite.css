@@ -17,7 +17,7 @@ html{
 }
 
 #header{
-	padding-right: 1%;
+	padding-right: 2%;
 	text-align: right;
 	float: right;
 	width: 100vh;
@@ -35,14 +35,13 @@ html{
 	#menu { 
 		color: #ccc;
 		float: left;
-		width: 180px;
+		width: 14%;
 		height: 100vh;
 		background-color: #000000;
 		position: fixed;
-		padding-top: 70px;
+		padding-top: 55px;
 		opacity: 0.6;
 		font-weight: 300;
-
 	}
 
 	#menuHead{
@@ -53,18 +52,39 @@ html{
 	#menulist {
 		list-style-type: none;
 		font-size: 14px;
-		margin-top: 50px;
+		margin-top: 40px;
 		line-height: 25px;
+		width: 70%;
 	}
 
 	#menulist li:hover {
 		color: #FFF;
 	}
 
+	ul.submenu {
+		display: none;
+	}
+
+	li:hover ul.submenu {
+		display: block;
+	}
+
+	.submenu li:hover {
+		color: #FFF;
+	}
+
+	.submenu{
+		list-style-type: none;
+		margin-left: -20px;
+	}
+
 	#socialMedia {
 		padding-left: 12px;
 		z-index: 1000;
-		margin-top: 280px;
+	}
+
+	#socialMedia img:hover {
+    opacity: .4;
 	}
 
 	#worldmap {
@@ -78,7 +98,7 @@ html{
 	}
 
 	#footer {
-		padding-right: 3%;
+		padding-right: 2%;
 		position: fixed;
 		bottom: 0;
 		right: 0;
@@ -86,7 +106,9 @@ html{
 		opacity: 0.7;
 	}
 
-	
+	.menu {
+		height: 80%;
+	}
 	
 	.heading {
 		margin: 0;
